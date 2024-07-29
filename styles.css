@@ -25,6 +25,9 @@ main {
 
 section {
     margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 section h2 {

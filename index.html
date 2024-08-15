@@ -1,12 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>Planner</title>
 </head>
+
 <body>
-  <header><img src="./assets/LOGO-PLANNER.svg" alt=""></header>
+  <div class="container">
+    <header>
+      <img src="./assets/LOGO-PLANNER.svg" alt="" class="logo-planner">
+    </header>
+    <div class="container-login">
+      <div class="login">
+        <form class="inputs">
+          <label class="title-login" for="usuario">Login</label>
+          <input type="email" id="usuario" class="input-usuario" placeholder="login">
+
+          <label class="title-senha" for="senha">Senha</label>
+          <input type="password" id="senha" class="input-password" placeholder="********">
+          <div href="" class="container-esqueci-minha-senha"><a href="" class="link-esqueci-minha-senha">Esqueci minha
+              senha</a></div>
+        </form>
+        <button class="button-login">Login</button>
+      </div>
+      <div class="division">
+        <img src="./assets/traco-division.svg" alt="" class="traco-division">
+        <p class="text-ou">ou</p>
+        <img src="./assets/traco-division.svg" alt="" class="traco-division">
+      </div>
+      <div class="container-outros-logins">
+        <button class="google-button">
+          <img src="./assets/image-logo-google.svg" alt="" class="imagem-logo-google">
+          <p class="text-google">Google</p>
+        </button>
+        <button class="facebook-button">
+          <img src="./assets/image-logo-facebook.svg" alt="" class="imagem-logo-facebook">
+          <p class="text-facebook">Facebook</p>
+        </button>
+      </div>
+      <div class="container-cadastrar">
+        <p class="text-nao-tem-uma-conta">Não tem uma conta? <a href="" class="link-cadastrar">Cadastre-se</a></p>
+      </div>
+    </div>
+  </div>
+
 </body>
+
 </html>
